@@ -1,0 +1,46 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #F15A29;
+  margin: 0;
+}
+
+header {
+  background-image: url("./images/backgrounds/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 900px;
+  width: 100%;
+}
+
+.header_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 0px 0px;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+
+.header_content > .head_text {
+  color: white;
+  font-size: 45px;
+  width: 700px;
+  text-align: center;
+  word-spacing: 13px;
+  letter-spacing: 2px;
+  padding-left: 70px;
+  padding-left: -5px;
+}
+.header_content > img {
+  width: 460px;
+  height: 460px;
+}
