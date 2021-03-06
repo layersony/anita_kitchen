@@ -198,3 +198,66 @@ header {
 .food_desc>.desc>#p_desc_rev {
   text-align: right;
 }
+
+/*types of foods*/
+.scr_fast_food{
+  background-image: url("./images/backgrounds/foodsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-size: 20px;
+  color: #F15A29;
+}
+.scr_fast_food>.food_container{
+  position: relative;
+  align-items: center;
+  margin: 90px;
+}
+
+.scr_fast_food>.food_container>.scr_food>ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  width: 1100px;
+  height: 60px;
+  background-color: rgb(188, 189, 189);
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+}
+
+.scr_fast_food>.food_container>.scr_food>ul>li{
+  font-size: 25px;
+  padding-top: 15px;
+  border-right: 1px solid black;
+  width: 25%;
+}
+.scr_fast_food>.food_container>.f_food {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  width: 1100px;
+  position: relative;
+  margin: 0 auto;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.scr_fast_food>.food_container>.f_food img {
+  width: 300px;
+  height:250px;
+  object-fit: cover;
+  padding: 40px 20px 0px 15px;
+}
+
+.main_li.active {
+  background-color: white;
+  border-right: 1px solid #000000;
+}
