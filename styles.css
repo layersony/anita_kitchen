@@ -1,6 +1,7 @@
 *{
   font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
+  text-align: center;
 }
 
 body{
@@ -260,4 +261,47 @@ header {
 .main_li.active {
   background-color: white;
   border-right: 1px solid #000000;
+}
+
+/*styling feedback and about menu*/
+
+.feedback {
+  background-color: white;
+  padding: 80px;
+}
+.feedback>.feed_container{
+  background-color: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 0px 8px -2px;
+  border-radius: 5px;
+}
+.feedback>.feed_container>.customer{
+  width: 40%;
+  padding: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-right: 1px solid black;
+}
+.feedback>.feed_container>.about_menu{
+  width: 25%;
+  padding: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-left: 1px solid black;
+
+}
+
+/*subcribe*/
+
+.subscribe {
+  background-color: green;
+}
+
+/*footer*/
+footer{
+
 }
