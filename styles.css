@@ -321,6 +321,7 @@ input[type=text]{
   font-size: 20px;
   margin-right: 10px;
   padding: 0px 10px 0px 10px;
+  box-sizing: border-box;
 }
 .subscribe>.sub_container p{
   font-size: 30px;
@@ -341,5 +342,34 @@ input[type=button]{
 
 /*footer*/
 footer{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: #ffffff;
+}
 
+.footer_logo{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -50px;
+  position: relative;
+}
+.footer_logo img{
+  margin-right: 10px;
+}
+.footer_logo> p{
+  font-size: 40px;
+}
+footer p{
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 0px;
+}
+
+.social{
+  padding: 10px;
 }
