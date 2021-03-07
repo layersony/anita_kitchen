@@ -2,6 +2,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
   text-align: center;
+  overflow-y: visible;
 }
 
 body{
@@ -18,8 +19,19 @@ header {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 900px;
+  height: 945px;
   width: 100%;
+  overflow-y: hidden;
+}
+.menu_ham{
+  width: 100px;  
+  padding: 50px 100px;
+}
+.menu_ham div{
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
 }
 
 .header_content {
@@ -28,7 +40,7 @@ header {
   align-items: center;
   justify-content: center;
   margin: 0px 0px 0px 0px;
-  padding-top: 120px;
+  padding-top: 30px;
   padding-left: 50px;
 }
 
@@ -39,8 +51,7 @@ header {
   text-align: center;
   word-spacing: 13px;
   letter-spacing: 2px;
-  padding-left: 70px;
-  padding-left: -5px;
+  padding-left: -3px;
 }
 .header_content > img {
   width: 460px;
