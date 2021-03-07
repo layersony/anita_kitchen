@@ -1,5 +1,5 @@
 *{
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:  Helvetica, sans-serif;
   overflow-x: hidden;
   text-align: center;
   overflow-y: visible;
@@ -8,6 +8,25 @@
 body{
   background-color: #F15A29;
   margin: 0;
+}
+
+/*icons*/
+.arrow{
+  border: solid #F15A29;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  margin-left: 0px;
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 header {
@@ -47,6 +66,7 @@ header {
 .header_content > .head_text {
   color: white;
   font-size: 45px;
+  font-weight: 100;
   width: 700px;
   text-align: center;
   word-spacing: 13px;
@@ -56,6 +76,9 @@ header {
 .header_content > img {
   width: 460px;
   height: 460px;
+}
+.header_content>.head_text span{
+  font-weight: 600;
 }
 
 /* takes foodtop section */
@@ -67,8 +90,19 @@ header {
   font-size: 25px;
   text-transform: capitalize;
   color: white;
+  background-color: #ffffff;
 }
 .takes>.f-top p{
+  font-size: 40px;
+  font-style:italic;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin-top: -5px;
+  margin-left: 5px;
+}
+.takes>.f-2-top p{
   font-size: 40px;
   position: relative;
   top: 50%;
@@ -103,6 +137,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  opacity: 0.6;
 }
 .takes > .dinner{
   background-image: url("./images/foodtop/dinner.jpg");
@@ -162,12 +197,15 @@ header {
 }
 
 .food_desc>.desc>.p_desc h3 {
+  text-align: left;
   font-size: 28px;
 }
 .food_desc>.desc>.p_desc h4 {
+  text-align: left;
   font-size: 20px;
 }
 .food_desc>.desc>.p_desc p {
+  text-align: left;
   margin-bottom: 30px;
 }
 .food_desc>.desc>.p_desc a {
@@ -210,6 +248,18 @@ header {
 .food_desc>.desc>#p_desc_rev {
   text-align: right;
 }
+.food_desc>.desc>#p_desc_rev h3 {
+  text-align: right;
+  font-size: 28px;
+}
+.food_desc>.desc>#p_desc_rev h4 {
+  text-align: right;
+  font-size: 20px;
+}
+.food_desc>.desc>#p_desc_rev p {
+  text-align: right;
+  margin-bottom: 30px;
+}
 
 /*types of foods*/
 .scr_fast_food{
@@ -232,7 +282,7 @@ header {
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
-  width: 1100px;
+  width: 1200px;
   height: 60px;
   background-color: rgb(188, 189, 189);
   border-top: 1px solid black;
@@ -255,7 +305,7 @@ header {
   background-color: white;
   text-align: center;
   align-items: center;
-  width: 1100px;
+  width: 1200px;
   position: relative;
   margin: 0 auto;
   border-right: 1px solid #000000;
@@ -266,7 +316,8 @@ header {
   width: 300px;
   height:250px;
   object-fit: cover;
-  padding: 40px 20px 0px 15px;
+  padding: 40px 0px 0px 0px;
+  margin-right: 0px;
 }
 
 .main_li.active {
@@ -279,6 +330,8 @@ header {
 .feedback {
   background-color: white;
   padding: 80px;
+  position: relative;
+  height: 400px;
 }
 .feedback>.feed_container{
   display: flex;
@@ -286,6 +339,11 @@ header {
   justify-content: center;
   box-shadow: 0px 0px 8px -2px;
   border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 63%;
 }
 .feedback>.feed_container>.customer{
   width: 40%;
@@ -295,6 +353,16 @@ header {
   margin-left: 20px;
   border-right: 1px solid black;
 }
+.feedback>.feed_container>.customer>.feed_img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  object-fit: cover;
+}
+.feedback>.feed_container>.customer>.feed_img img{
+  object-fit: none;
+  padding: 5px;
+}
 .feedback>.feed_container>.about_menu{
   width: 25%;
   padding: 50px;
@@ -303,6 +371,15 @@ header {
   margin-right: 20px;
   border-left: 1px solid black;
 }
+.arrow-feed{
+  border: solid #F15A29;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+
 
 /*subcribe*/
 
