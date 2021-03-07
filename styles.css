@@ -472,7 +472,10 @@ footer p{
   letter-spacing: 1px;
   padding: 0px;
 }
-
-.social{
+.social img{
   padding: 10px;
+  margin: 4px 4px 20px 4px;
+}
+.fin_text{
+  font-size: 13px;
 }
