@@ -3,6 +3,7 @@
   overflow-x: hidden;
   text-align: center;
   overflow-y: visible;
+  letter-spacing: 1px;
 }
 
 body{
@@ -165,7 +166,7 @@ header {
 }
 
 .food_desc > .desc {
-  margin: 90px 10px 10px 10px;
+  margin: 80px 10px 10px 10px;
   padding: 20px 10px;
   display: flex;
   flex-direction: row;
@@ -333,7 +334,8 @@ header {
   background-color: white;
   padding: 80px;
   position: relative;
-  height: 400px;
+  height: 380px;
+  font-size: 18px;
 }
 .feedback>.feed_container{
   display: flex;
@@ -345,10 +347,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 63%;
+  width: 60%;
 }
 .feedback>.feed_container>.customer{
-  width: 40%;
+  width: 45%;
   padding: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -366,11 +368,11 @@ header {
   padding: 5px;
 }
 .feedback>.feed_container>.about_menu{
-  width: 25%;
-  padding: 50px;
+  width: 28%;
+  padding: 30px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right: 20px;
+  margin-right: 10px;
   border-left: 1px solid black;
 }
 .arrow-feed{
@@ -380,9 +382,12 @@ header {
   padding: 5px;
   margin: 5px;
 }
-
-
-
+.feedback>.feed_container h3{
+  color: #F15A29;
+}
+.feedback>.feed_container>.about_menu p{
+  text-align: center;
+}
 /*subcribe*/
 
 .subscribe {
@@ -405,6 +410,7 @@ header {
   width: 50%;
 }
 input[type=text]{
+  color: #ffffff;
   width: 450px;
   height: 50px;
   text-align: left;
@@ -412,6 +418,9 @@ input[type=text]{
   margin-right: 10px;
   padding: 0px 10px 0px 10px;
   box-sizing: border-box;
+  background-color: rgba(168, 163, 163, 0.342);
+  border: none;
+  border-radius: 2px;
 }
 .subscribe>.sub_container p{
   font-size: 30px;
@@ -426,9 +435,13 @@ input[type=button]{
   color: white;
   font-size: 20px;
   margin: 10px;
+  border: none;
+  border-radius: 2px;
 }
-
-
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
 
 /*footer*/
 footer{
