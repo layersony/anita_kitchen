@@ -208,20 +208,22 @@ header {
   text-align: left;
   margin-bottom: 30px;
 }
-.food_desc>.desc>.p_desc a {
+.food_desc>.desc>.p_desc button {
+
   border: 1px solid #F15A29;
-  border-radius: 5px;
   color: #F15A29;
-  padding: 20px;
+  background-color: #ffffff;
+  padding: 15px 32px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
   text-decoration: none;
-  margin-top: 6px;
 }
-.food_desc>.desc>.p_desc a:hover {
-  border: 1px solid #F15A29;
+.food_desc>.desc>.p_desc button:hover {
   background-color: #F15A29;
   color: white;
-  padding: 20px;
-  text-decoration: none;
+  padding: 15px 32px;
 }
 
 /* for drinks */
