@@ -3,7 +3,6 @@
   overflow-x: hidden;
   text-align: center;
   overflow-y: visible;
-  letter-spacing: 1px;
 }
 
 body{
@@ -48,8 +47,8 @@ header {
   padding: 50px 100px;
 }
 .menu_ham div{
-  width: 50px;
-  height: 5px;
+  width: 60px;
+  height: 3px;
   background-color: white;
   margin: 6px 0;
 }
@@ -294,6 +293,7 @@ header {
   margin: 0 auto;
   padding: 0;
   position: relative;
+  color: #000000;
 }
 
 .scr_fast_food>.food_container>.scr_food>ul>li{
@@ -325,8 +325,9 @@ header {
 
 .main_li.active {
   background-color: white;
-  border-right: 1px solid #000000;
+  color: #F15A29;
 }
+
 
 /*styling feedback and about menu*/
 
