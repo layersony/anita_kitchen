@@ -235,7 +235,7 @@ header {
 .food_desc > .desc >.row_image img {
   object-fit: cover;
   margin-left: -10px;
-  width: 350px;
+  padding-right: 5px;
 }
 
 .food_desc > .desc >.row_image {
@@ -316,8 +316,6 @@ header {
   border-bottom: 1px solid #000000;
 }
 .scr_fast_food>.food_container>.f_food img {
-  width: 300px;
-  height:250px;
   object-fit: cover;
   padding: 40px 0px 0px 0px;
   margin-right: 0px;
